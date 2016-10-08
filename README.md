@@ -1,7 +1,8 @@
 # pthread
 
 ##
-1、 建立线程的三个重要的函数，pthread_create,pthread_join,pthread_exit,
+1、 建立线程的三个重要的函数，pthread_create,pthread_join,pthread_exit
+
     int pthread_create(pthread_t *thread,pthread_attr_t *attr,void*(*start_routine)(void*),void *arg)
     第一个参数标示一个线程,他是pthread_t类型的变量
     第二个参数标示设置线程的属性，如果为空，默认属性
